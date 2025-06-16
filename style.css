@@ -1,9 +1,23 @@
 /* Styling Only Related To ALL Pages */
 
+
+
+
+
+
+@font-face{
+  
+  font-family:textt;
+  src: url(https://cdn.glitch.global/600af31e-4a34-4d25-8999-5a05c46c31d8/Milven-Regular.otf?v=1750015566311)
+  
+}
+
+
 body {
-  padding-top: 30px;
+  padding-top: 40px;
   margin-left: 0px;
   margin-right: 0px;
+  color:#4a4e69;
 }
 /* ⬆⬆⬆⬆ Nav Bar Styling 
 ~~~~~ Taken From: 
@@ -26,18 +40,18 @@ ul.nav li {
 
 ul.nav li a {
   display: block;
-  color: white;
+  color:white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul.nav li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: #9a8c98;
 }
 
 ul.nav .active {
-  background-color: red;
+  background-color:#22223b;
 }
 
 h1 {
